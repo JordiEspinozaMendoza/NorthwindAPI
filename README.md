@@ -80,6 +80,7 @@ You could test the API in [Postman](https://www.postman.com/) or any other tool 
 ### Tables of the Northwind database
 
 The Northwind database contains the following tables:
-<img src="./img/Screenshot from 2021-11-16 13-52-35.png"/>
+
+![](img/tables.png?raw=true)
 
 You can create a new Controllers for each table and make petitions to the API.
