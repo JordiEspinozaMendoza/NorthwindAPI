@@ -23,7 +23,6 @@ Open a new terminal and run the following command:
 ```
 dotnet add package Newtonsoft.Json --version 13.0.1
 ```
-
 #### Adding launchSettings.json
 
 Inside of Properties directory, create a new file named launchSettings.json and copy the following contents into it:
@@ -66,9 +65,6 @@ Take a look at the following example and make sure to replace the values with yo
   }
 }
 ```
-
 If everything goes well, you should see the following in the terminal:
-
 ```
 dotnet run build
-```
