@@ -23,6 +23,7 @@ Open a new terminal and run the following command:
 ```
 dotnet add package Newtonsoft.Json --version 13.0.1
 ```
+
 #### Adding launchSettings.json
 
 Inside of Properties directory, create a new file named launchSettings.json and copy the following contents into it:
@@ -65,6 +66,20 @@ Take a look at the following example and make sure to replace the values with yo
   }
 }
 ```
+
 If everything goes well, you should see the following in the terminal:
+
 ```
 dotnet run build
+```
+
+### Testing the API
+
+You could test the API in [Postman](https://www.postman.com/) or any other tool or client to make petitions to the API.
+
+### Tables of the Northwind database
+
+The Northwind database contains the following tables:
+<img src="./img/Screenshot from 2021-11-16 13-52-35.png"/>
+
+You can create a new Controllers for each table and make petitions to the API.
