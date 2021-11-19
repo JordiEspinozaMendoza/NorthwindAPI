@@ -688,24 +688,33 @@
     ]
   },
   "packageFolders": {
-    "/home/jordi/.nuget/packages/": {}
+    "C:\\Users\\moras\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jordi/Documentos/School/Net/NorthwindAPI/NorthwindAPI.csproj",
+      "projectUniqueName": "C:\\Users\\moras\\Downloads\\TBD EXPO\\NorthwindAPI.csproj",
       "projectName": "NorthwindAPI",
-      "projectPath": "/home/jordi/Documentos/School/Net/NorthwindAPI/NorthwindAPI.csproj",
-      "packagesPath": "/home/jordi/.nuget/packages/",
-      "outputPath": "/home/jordi/Documentos/School/Net/NorthwindAPI/obj/",
+      "projectPath": "C:\\Users\\moras\\Downloads\\TBD EXPO\\NorthwindAPI.csproj",
+      "packagesPath": "C:\\Users\\moras\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\moras\\Downloads\\TBD EXPO\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/home/jordi/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\moras\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -755,7 +764,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

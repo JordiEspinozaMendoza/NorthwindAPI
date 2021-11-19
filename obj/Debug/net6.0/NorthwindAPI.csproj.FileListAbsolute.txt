@@ -32,3 +32,37 @@
 /home/jordi/Documentos/School/Net/NorthwindAPI/obj/Debug/net6.0/NorthwindAPI.pdb
 /home/jordi/Documentos/School/Net/NorthwindAPI/obj/Debug/net6.0/NorthwindAPI.genruntimeconfig.cache
 /home/jordi/Documentos/School/Net/NorthwindAPI/bin/Debug/net6.0/Newtonsoft.Json.dll
+C:\Users\moras\Downloads\TBD EXPO\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\moras\Downloads\TBD EXPO\bin\Debug\net6.0\appsettings.json
+C:\Users\moras\Downloads\TBD EXPO\bin\Debug\net6.0\NorthwindAPI.exe
+C:\Users\moras\Downloads\TBD EXPO\bin\Debug\net6.0\NorthwindAPI.deps.json
+C:\Users\moras\Downloads\TBD EXPO\bin\Debug\net6.0\NorthwindAPI.runtimeconfig.json
+C:\Users\moras\Downloads\TBD EXPO\bin\Debug\net6.0\NorthwindAPI.dll
+C:\Users\moras\Downloads\TBD EXPO\bin\Debug\net6.0\ref\NorthwindAPI.dll
+C:\Users\moras\Downloads\TBD EXPO\bin\Debug\net6.0\NorthwindAPI.pdb
+C:\Users\moras\Downloads\TBD EXPO\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\moras\Downloads\TBD EXPO\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\moras\Downloads\TBD EXPO\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\moras\Downloads\TBD EXPO\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\moras\Downloads\TBD EXPO\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\moras\Downloads\TBD EXPO\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\moras\Downloads\TBD EXPO\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\moras\Downloads\TBD EXPO\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\moras\Downloads\TBD EXPO\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\moras\Downloads\TBD EXPO\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\moras\Downloads\TBD EXPO\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\moras\Downloads\TBD EXPO\obj\Debug\net6.0\NorthwindAPI.csproj.AssemblyReference.cache
+C:\Users\moras\Downloads\TBD EXPO\obj\Debug\net6.0\NorthwindAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moras\Downloads\TBD EXPO\obj\Debug\net6.0\NorthwindAPI.AssemblyInfoInputs.cache
+C:\Users\moras\Downloads\TBD EXPO\obj\Debug\net6.0\NorthwindAPI.AssemblyInfo.cs
+C:\Users\moras\Downloads\TBD EXPO\obj\Debug\net6.0\NorthwindAPI.csproj.CoreCompileInputs.cache
+C:\Users\moras\Downloads\TBD EXPO\obj\Debug\net6.0\NorthwindAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\moras\Downloads\TBD EXPO\obj\Debug\net6.0\NorthwindAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\moras\Downloads\TBD EXPO\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\moras\Downloads\TBD EXPO\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\moras\Downloads\TBD EXPO\obj\Debug\net6.0\scopedcss\bundle\NorthwindAPI.styles.css
+C:\Users\moras\Downloads\TBD EXPO\obj\Debug\net6.0\NorthwindAPI.csproj.CopyComplete
+C:\Users\moras\Downloads\TBD EXPO\obj\Debug\net6.0\NorthwindAPI.dll
+C:\Users\moras\Downloads\TBD EXPO\obj\Debug\net6.0\ref\NorthwindAPI.dll
+C:\Users\moras\Downloads\TBD EXPO\obj\Debug\net6.0\NorthwindAPI.pdb
+C:\Users\moras\Downloads\TBD EXPO\obj\Debug\net6.0\NorthwindAPI.genruntimeconfig.cache
