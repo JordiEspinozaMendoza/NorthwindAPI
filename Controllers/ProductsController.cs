@@ -151,7 +151,7 @@ public class ProductsController : ControllerBase
 
 // * This gets all the data from the products which unit price is higher than the specified.
      [HttpGet("getproducts/maxunitprice/{muprice}")]
-    public ActionResult<DataTable> GetProductsMUPrice(string uprice)
+    public ActionResult<DataTable> GetProductsMUPrice(string muprice)
     {
         // * Query string
         string queryString = "SELECT * FROM Products WHERE UnitPrice > @muprice";
