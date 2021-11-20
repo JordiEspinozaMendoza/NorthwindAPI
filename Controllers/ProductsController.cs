@@ -83,20 +83,101 @@ public class ProductsController : ControllerBase
         return Ok(response["message"]);
     }
 
-    // * This gets 
-    [HttpGet("getproducts/city/{city}")]
-    public ActionResult<DataTable> GetEmployeesCity(string city)
+    // * This gets the product with the specified id
+     [HttpGet("getproducts/{id}")]
+    public ActionResult<DataTable> GetProductsID(string id)
+    {
+        // * Query string 
+        string queryString =
+            $"SELECT * FROM Products WHERE ProductID = @id";
+        Dictionary<string, string> paramaters = new Dictionary<string, string>();
+        paramaters.Add("@id", id);
+        Dictionary<string, string> response = ResponsesData.getResponses(queryString, paramaters);
+        if (response["status"] != "success")
+            return BadRequest(response["message"]);
+
+        // * If everything went OK, send a 200 OK response.
+        return Ok(response["message"]);
+    }
+
+    // * This gets all the data from the products that their name starts with the specified letter.
+    [HttpGet("getproducts/search/{letter}")]
+    public ActionResult<DataTable> GetProductsByLetter(string letter)
+    {
+        // * Query string 
+        string queryString =
+        $"SELECT * FROM Products WHERE ProductName LIKE @letter";
+        Dictionary<string, string> paramaters = new Dictionary<string, string>();
+        parameters.Add("@letter", letter + "%");
+        Dictionary<string, string> response = ResponsesData.getResponses(queryString, paramaters);
+        if (response["status"] != "success")
+            return BadRequest(response["message"]);
+
+        // * If everything went OK, send a 200 OK response.
+        return Ok(response["message"]);
+    }
+
+    // * This gets the specified product by its name.
+    [HttpGet("getproducts/productname/{name}")]
+    public ActionResult<DataTable> GetProductsName(string name)
     {
         // * Query string
-        string queryString = "SELECT * FROM Employees WHERE City = @city";
+        string queryString = "SELECT * FROM Products WHERE ProductName = @name";
         Dictionary<string, string> parameters = new Dictionary<string, string>();
-        parameters.Add("@city", city);
+        parameters.Add("@name", name);
         Dictionary<string, string> response = ResponsesData.getResponses(queryString, parameters);
         if (response["status"] != "success")
             return BadRequest(response["message"]);
 
         // * If everything went OK, send a 200 OK response.
         return Ok(response["message"]);
-        //cuack
+    }
+
+    // * This gets all the data from the products from the specified supplier .
+    [HttpGet("getproducts/productinfosup/{supplier}")]
+    public ActionResult<DataTable> GetProductsInfoSup(string supplier)
+    {
+        // * Query string
+        string queryString = "SELECT * FROM Products WHERE SupplierID = @supplier";
+        Dictionary<string, string> parameters = new Dictionary<string, string>();
+        parameters.Add("@supplier", supplier);
+        Dictionary<string, string> response = ResponsesData.getResponses(queryString, parameters);
+        if (response["status"] != "success")
+            return BadRequest(response["message"]);
+
+        // * If everything went OK, send a 200 OK response.
+        return Ok(response["message"]);
+    }
+
+// * This gets all the data from the products which unit price is higher than the specified.
+     [HttpGet("getproducts/maxunitprice/{muprice}")]
+    public ActionResult<DataTable> GetProductsMUPrice(string uprice)
+    {
+        // * Query string
+        string queryString = "SELECT * FROM Products WHERE UnitPrice > @muprice";
+        Dictionary<string, string> parameters = new Dictionary<string, string>();
+        parameters.Add("@muprice", muprice);
+        Dictionary<string, string> response = ResponsesData.getResponses(queryString, parameters);
+        if (response["status"] != "success")
+            return BadRequest(response["message"]);
+
+        // * If everything went OK, send a 200 OK response.
+        return Ok(response["message"]);
+    }
+
+// * This gets all the data from the products with the specified unit price.
+     [HttpGet("getproducts/unitprice/{uprice}")]
+    public ActionResult<DataTable> GetProductsUPrice(string uprice)
+    {
+        // * Query string
+        string queryString = "SELECT * FROM Products WHERE UnitPrice > @uprice";
+        Dictionary<string, string> parameters = new Dictionary<string, string>();
+        parameters.Add("@uprice", uprice);
+        Dictionary<string, string> response = ResponsesData.getResponses(queryString, parameters);
+        if (response["status"] != "success")
+            return BadRequest(response["message"]);
+
+        // * If everything went OK, send a 200 OK response.
+        return Ok(response["message"]);
     }
 }
