@@ -108,7 +108,7 @@ public class ProductsController : ControllerBase
         string queryString = "SELECT * FROM Products WHERE ProductName LIKE @letter";
         Dictionary<string, string> parameters = new Dictionary<string, string>();
         parameters.Add("@letter", letter + "%");
-        Dictionary<string, string> response = ResponsesData.getResponses(queryString, paramaters);
+        Dictionary<string, string> response = ResponsesData.getResponses(queryString, parameters);
         if (response["status"] != "success")
             return BadRequest(response["message"]);
 
