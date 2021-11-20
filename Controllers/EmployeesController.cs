@@ -115,7 +115,21 @@ public class EmployeesController : ControllerBase
         // * If everything went OK, send a 200 OK response.
         return Ok(response["message"]);
     }
-   
+    // * This get all the data from the employees that their last name starts with the letter ''.
+    [HttpGet("getemployees/startsWith/{letter}")]
+    public ActionResult<DataTable> GetEmployeesStartsWith(string letter)
+    {
+        // * Query string
+        string queryString = "SELECT * FROM Employees WHERE LastName LIKE @letter";
+        Dictionary<string, string> parameters = new Dictionary<string, string>();
+        parameters.Add("@letter", letter + "%");
+        Dictionary<string, string> response = ResponsesData.getResponses(queryString, parameters);
+        if (response["status"] != "success")
+            return BadRequest(response["message"]);
+
+        // * If everything went OK, send a 200 OK response.
+        return Ok(response["message"]);
+    }
     // * This get all the data from the employees that are in one specific country.
     [HttpGet("getemployees/country/{country}")]
     public ActionResult<DataTable> GetEmployeesCountry(string country)
