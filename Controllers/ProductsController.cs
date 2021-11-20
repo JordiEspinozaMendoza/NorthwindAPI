@@ -101,12 +101,11 @@ public class ProductsController : ControllerBase
     }
 
     // * This gets all the data from the products that their name starts with the specified letter.
-    [HttpGet("getproducts/search/{letter}")]
-    public ActionResult<DataTable> GetProductsByLetter(string letter)
+    [HttpGet("getproducts/startsWith/{letter}")]
+    public ActionResult<DataTable> GetProductsStartWith(string letter)
     {
         // * Query string 
-        string queryString =
-        $"SELECT * FROM Products WHERE ProductName LIKE @letter";
+        string queryString = "SELECT * FROM Products WHERE ProductName LIKE @letter";
         Dictionary<string, string> paramaters = new Dictionary<string, string>();
         parameters.Add("@letter", letter + "%");
         Dictionary<string, string> response = ResponsesData.getResponses(queryString, paramaters);
